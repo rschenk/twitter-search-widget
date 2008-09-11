@@ -1,0 +1,76 @@
+= Twitter Search Widget
+
+* http://ryanschenk.com/twitter_search_widget
+
+== DESCRIPTION:
+
+The Twitter Search Widget allows you to display the results of a Twitter
+search on your website, blog, etc, without writing any JavaScript or HTML.
+
+It is, however, assumed that you will (and want to) style it.
+
+== FEATURES:
+
+* Clean Code
+* Semantic HTML Markup
+* Allows you to style it however you'd like
+
+== SYNOPSIS:
+
+If you are unfamiliar with CSS, or simply do not want to write any, do not use
+this widget. There is another Twitter search widget that you can simply drop
+in and use. It is located at http://twitterwidget.jazzychad.com/tw/
+
+Jazzy Chad's widget is fantastic if you need a drop-in, pre-styled solution.
+However, it uses inline styles that can be limiting if you need find grained
+control over the appearance of elements.
+
+If you are a web designer or developer who needs full control over the styling
+of the Twitter feed, then look no further. This widget produces
+straightforward, semantic HTML that will make styling a breeze.
+
+== INSTALL:
+
+ Place lib/twitter_search.js into the javascripts folder on your server
+
+== USAGE:
+
+ <script src="/path/to/twitter_search.js" type="text/javascript" ></script>
+ <script type="text/javascript" charset="utf-8">
+   TwitterSearch.search('--YOUR SEARCH QUERY HERE--');
+ </script>
+
+ See examples/example.html for a working example, and a sample stylesheet.
+
+== FUTURE FEATURES:
+
+It would be rad if it could search for new messages via AJAX. Unfortunately, I
+haven't been able to find a way around the Single Origin Policy. If any
+JavaScript hackers could make a workaround, that'd be sweet.
+
+== LICENSE:
+
+This software is released under the MIT License (see below), which means that
+you are free to do anything you want with it.
+
+(The MIT License)
+
+Copyright (c) 2008 Ryan Schenk
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
